@@ -1,0 +1,1355 @@
+<!DOCTYPE html><html lang="en" class="scroll-smooth"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RB Developers | Construction Company &amp; Real Estate Developers in Chandigarh, Mohali &amp; Panchkula</title>
+  <meta name="description" content="RB Developers — Trusted construction company in Chandigarh, builders in Mohali, and construction company in Panchkula. Specializing in residential construction, commercial construction, and property development across the Tricity.">
+  <meta name="keywords" content="Construction Company in Chandigarh, Builders in Mohali, Construction Company in Panchkula, Real Estate Developers in Tricity, Residential Construction Chandigarh, Commercial Construction Mohali, Property Development Tricity">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'gold': '#FBAC20',
+        'gold-light': '#FFF1D8',
+        'ink': '#171717',
+        'charcoal': '#232323',
+        'light-primary': '#121212',
+        'light-on-primary': '#FFFFFF',
+        'light-primary-container': '#171717',
+        'light-on-primary-container': '#EDE8DE',
+        'light-secondary': '#805003',
+        'light-on-secondary': '#FFFFFF',
+        'light-secondary-container': '#FFD17A',
+        'light-on-secondary-container': '#2B1B03',
+        'light-tertiary': '#150700',
+        'light-on-tertiary': '#FFFFFF',
+        'light-error': '#BA1A1A',
+        'light-on-error': '#FFFFFF',
+        'light-error-container': '#FFDAD6',
+        'light-on-error-container': '#93000A',
+        'light-background': '#FAF8F4',
+        'light-on-background': '#232323',
+        'light-surface': '#FFFFFF',
+        'light-surface-dim': '#E4DED3',
+        'light-surface-bright': '#FFFFFF',
+        'light-surface-container-lowest': '#FFFFFF',
+        'light-surface-container-low': '#FAF8F4',
+        'light-surface-container': '#F5F1E9',
+        'light-surface-container-high': '#EBE5DA',
+        'light-surface-container-highest': '#E4DED3',
+        'light-on-surface': '#232323',
+        'light-surface-variant': '#EAE5DA',
+        'light-on-surface-variant': '#504D47',
+        'light-outline': '#706C65',
+        'light-outline-variant': '#CDC6BA',
+        'light-inverse-surface': '#232323',
+        'light-inverse-on-surface': '#F4EFE6',
+        'light-inverse-primary': '#E4CA9D',
+        'dark-primary': '#E4CA9D',
+        'dark-on-primary': '#302B24',
+        'dark-primary-container': '#171717',
+        'dark-on-primary-container': '#EDE8DE',
+        'dark-secondary': '#EEC064',
+        'dark-on-secondary': '#402D00',
+        'dark-secondary-container': '#7D5B00',
+        'dark-on-secondary-container': '#FFD78B',
+        'dark-tertiary': '#EDBD92',
+        'dark-on-tertiary': '#472A09',
+        'dark-error': '#FFB4AB',
+        'dark-on-error': '#690005',
+        'dark-error-container': '#93000A',
+        'dark-on-error-container': '#FFDAD6',
+        'dark-background': '#151515',
+        'dark-on-background': '#E4DED3',
+        'dark-surface': '#151515',
+        'dark-surface-dim': '#151515',
+        'dark-surface-bright': '#383632',
+        'dark-surface-container-lowest': '#101010',
+        'dark-surface-container-low': '#232323',
+        'dark-surface-container': '#232220',
+        'dark-surface-container-high': '#2B2926',
+        'dark-surface-container-highest': '#35322E',
+        'dark-on-surface': '#E4DED3',
+        'dark-surface-variant': '#504D47',
+        'dark-on-surface-variant': '#CDC6BA',
+        'dark-outline': '#A39A8D',
+        'dark-outline-variant': '#504D47',
+        'dark-inverse-surface': '#E4DED3',
+        'dark-inverse-on-surface': '#2E2C29',
+        'dark-inverse-primary': '#775D30',
+      },
+      borderRadius: {
+        'none': '0px',
+        'sm': '2px',
+        'DEFAULT': '4px',
+        'md': '8px',
+        'lg': '12px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '16px',
+        'gutter-lg': '24px',
+        'gutter-xl': '32px',
+        'section': '80px',
+        'section-lg': '112px',
+        'page-margin': '24px',
+      },
+      fontFamily: {
+        'display': ['Poppins', 'sans-serif'],
+        'headline': ['Poppins', 'sans-serif'],
+        'title': ['Poppins', 'sans-serif'],
+        'body': ['Poppins', 'sans-serif'],
+        'label': ['Poppins', 'sans-serif'],
+        'mono': ['Poppins', 'sans-serif'],
+      },
+      fontSize: {
+        'display-lg': ['64px', { lineHeight: '70px', letterSpacing: '-1px', fontWeight: '600' }],
+        'display-lg-mobile': ['32px', { lineHeight: '38px', letterSpacing: '-0.5px', fontWeight: '600' }],
+        'display-md': ['48px', { lineHeight: '54px', letterSpacing: '-0.75px', fontWeight: '600' }],
+        'display-md-mobile': ['30px', { lineHeight: '36px', letterSpacing: '-0.25px', fontWeight: '600' }],
+        'headline-lg': ['36px', { lineHeight: '44px', letterSpacing: '-0.5px', fontWeight: '600' }],
+        'headline-lg-mobile': ['28px', { lineHeight: '34px', letterSpacing: '-0.25px', fontWeight: '600' }],
+        'headline-md': ['28px', { lineHeight: '34px', letterSpacing: '-0.25px', fontWeight: '600' }],
+        'headline-sm': ['22px', { lineHeight: '28px', letterSpacing: '0px', fontWeight: '600' }],
+        'title-lg': ['20px', { lineHeight: '28px', letterSpacing: '0px', fontWeight: '700' }],
+        'title-md': ['16px', { lineHeight: '24px', letterSpacing: '0.15px', fontWeight: '700' }],
+        'body-lg': ['18px', { lineHeight: '28px', letterSpacing: '0px', fontWeight: '400' }],
+        'body-md': ['15px', { lineHeight: '24px', letterSpacing: '0.1px', fontWeight: '400' }],
+        'body-sm': ['13px', { lineHeight: '20px', letterSpacing: '0.15px', fontWeight: '400' }],
+        'label-lg': ['14px', { lineHeight: '20px', letterSpacing: '0.5px', fontWeight: '700' }],
+        'label-sm': ['11px', { lineHeight: '16px', letterSpacing: '1.2px', fontWeight: '700' }],
+        'mono-sm': ['12px', { lineHeight: '16px', letterSpacing: '0.5px', fontWeight: '500' }],
+      },
+      transitionDuration: {
+        'state-change': '150ms',
+        'surface-enter': '350ms',
+        'surface-exit': '200ms',
+      },
+      transitionDelay: {
+        'state-change': '0ms',
+        'surface-enter': '0ms',
+        'surface-exit': '0ms',
+      },
+      transitionTimingFunction: {
+        'state-change': 'ease-out',
+        'surface-enter': 'cubic-bezier(0.2, 0, 0, 1)',
+        'surface-exit': 'cubic-bezier(0.3, 0, 1, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <meta name="theme-color" content="#171717">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet">
+  <style>
+    body { font-family: Poppins, sans-serif; }
+    .material-symbols-outlined, .material-symbols-rounded, .material-symbols-sharp, .material-icons {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      line-height: 1 !important;
+      box-sizing: content-box;
+      overflow: hidden;
+      white-space: nowrap;
+      direction: ltr;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body class="bg-light-surface text-light-on-surface font-body antialiased selection:bg-gold selection:text-light-primary">
+
+  <!-- A. Sticky Navigation Bar (Transparent-to-Solid on Scroll) -->
+  <header id="site-header" class="fixed top-0 left-0 right-0 z-50 transition-colors duration-surface-enter bg-ink/75 border-b border-light-on-primary/10">
+    <div class="max-w-7xl mx-auto px-gutter-lg md:px-gutter-xl h-20 flex items-center justify-between gap-gutter-md">
+      <!-- Brand Logo -->
+      <a href="#home" class="shrink-0 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold">
+        <img src="./rb-infra-logo.png" width="373" height="115" alt="RB Infra Developers" class="block w-auto h-12 sm:h-14 rounded-sm bg-white px-2 py-1.5 object-contain">
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav aria-label="Primary navigation" class="hidden lg:flex items-center gap-gutter-xl">
+        <a href="#home" class="font-label text-label-lg text-light-on-primary/90 hover:text-gold transition-colors duration-state-change">Home</a>
+        <a href="#about" class="font-label text-label-lg text-light-on-primary/90 hover:text-gold transition-colors duration-state-change">About Us</a>
+        <a href="#services" class="font-label text-label-lg text-light-on-primary/90 hover:text-gold transition-colors duration-state-change">Services</a>
+        <a href="#projects" class="font-label text-label-lg text-light-on-primary/90 hover:text-gold transition-colors duration-state-change">Projects</a>
+        <a href="#process" class="font-label text-label-lg text-light-on-primary/90 hover:text-gold transition-colors duration-state-change">Our Process</a>
+        <a href="#contact" class="font-label text-label-lg text-light-on-primary/90 hover:text-gold transition-colors duration-state-change">Contact</a>
+      </nav>
+
+      <!-- Desktop CTA & Mobile Menu Toggle -->
+      <div class="flex items-center gap-gutter-md">
+        <!-- COMPONENT: button-gold -->
+        <a href="#contact" data-component-id="button-gold" data-component-type="button" data-component-variant="secondary" class="hidden sm:inline-flex items-center justify-center px-6 py-3 rounded-sm bg-gold text-light-primary hover:bg-light-secondary-container focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold transition-colors duration-state-change">
+          <span data-design-text-token="label-lg" class="font-label text-label-lg">Get a Free Consultation</span>
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle navigation menu" data-component-id="button-icon" data-component-type="button" data-component-variant="icon" class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-sm border border-light-on-primary/30 text-light-on-primary hover:border-gold hover:text-gold transition-colors duration-state-change">
+          <span id="mobile-menu-icon" class="material-symbols-outlined text-title-lg" aria-hidden="true">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-ink border-t border-light-on-primary/15 px-gutter-lg py-gutter-lg">
+      <nav aria-label="Mobile navigation" class="flex flex-col gap-gutter-md">
+        <a href="#home" class="mobile-nav-link font-label text-label-lg text-light-on-primary hover:text-gold py-1">Home</a>
+        <a href="#about" class="mobile-nav-link font-label text-label-lg text-light-on-primary hover:text-gold py-1">About Us</a>
+        <a href="#services" class="mobile-nav-link font-label text-label-lg text-light-on-primary hover:text-gold py-1">Services</a>
+        <a href="#projects" class="mobile-nav-link font-label text-label-lg text-light-on-primary hover:text-gold py-1">Projects</a>
+        <a href="#process" class="mobile-nav-link font-label text-label-lg text-light-on-primary hover:text-gold py-1">Our Process</a>
+        <a href="#contact" class="mobile-nav-link font-label text-label-lg text-light-on-primary hover:text-gold py-1">Contact</a>
+        <a href="#contact" class="mobile-nav-link mt-2 inline-flex items-center justify-center px-6 py-3 rounded-sm bg-gold text-light-primary font-label text-label-lg">Get a Free Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- B. Architectural Hero Section -->
+    <section id="home" class="relative min-h-[1024px] flex flex-col justify-between bg-ink overflow-hidden pt-24" data-stitch-vh="min-h-[1024px]===min-h-screen">
+      <img src="https://lh3.googleusercontent.com/aida/ALJJyrCSJgptTejFWTfYkHGtPGPQxR6tFaG7xsPB4i6iY1nzweGJ91hqeaNK-JLdjukhwZz_oJgdGhn7ZOTMjyCqcxYCwgsYfGz7ImZxpPHhGITQWmUrK6o4D5yRKuf9v9Gzk-Y7of0iJjx3yeB9zZm24pZFR_eA60nwuzzQO-bprDV-KdQU5WrgO2FmzIDM_LAg1_LWXLcLtN9Moy7VSWy3XkZvbAqVQ9moNvX2wybP-vA0tljbouRrFVJyrj5N0g" alt="Modern luxury residential and commercial architecture in the Tricity region" class="absolute inset-0 w-full h-full object-cover opacity-60">
+      <div class="absolute inset-0 bg-gradient-to-r from-ink/95 via-ink/75 to-ink/30" aria-hidden="true"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/40" aria-hidden="true"></div>
+
+      <div class="relative z-10 max-w-7xl mx-auto px-gutter-lg md:px-gutter-xl pt-16 pb-12 w-full my-auto">
+        <div class="max-w-3xl flex flex-col gap-gutter-lg">
+          <div class="inline-flex items-center gap-3">
+            <span class="w-10 h-0.5 bg-gold" aria-hidden="true"></span>
+            <span data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-gold">Tricity Architectural &amp; Development Studio</span>
+          </div>
+
+          <!-- COMPONENT: typography-display -->
+          <h1 data-component-id="typography-display" data-component-type="typography" data-component-variant="display" data-design-text-token="display-lg" class="font-display text-display-lg-mobile md:text-display-lg text-light-on-primary uppercase tracking-tight text-balance">
+            BUILDING SPACES.<br>CREATING LEGACIES.
+          </h1>
+
+          <p data-design-text-token="body-lg" class="font-body text-body-lg text-light-on-primary-container max-w-xl text-pretty">
+            Your trusted construction and real estate development partner across Chandigarh, Mohali and Panchkula.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-gutter-md pt-2">
+            <!-- COMPONENT: button-gold -->
+            <a href="#projects" data-component-id="button-gold" data-component-type="button" data-component-variant="secondary" class="inline-flex items-center gap-2 px-6 py-3 rounded-sm bg-gold text-light-primary hover:bg-light-secondary-container focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold transition-colors duration-state-change">
+              <span data-design-text-token="label-lg" class="font-label text-label-lg">Explore Our Projects</span>
+              <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+            </a>
+
+            <a href="#contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-sm border border-light-on-primary/50 text-light-on-primary hover:border-gold hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold transition-colors duration-state-change">
+              <span data-design-text-token="label-lg" class="font-label text-label-lg">Get a Free Consultation</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Architectural Strip -->
+      <div class="relative z-10 border-t border-light-on-primary/15 bg-ink/80">
+        <div class="max-w-7xl mx-auto px-gutter-lg md:px-gutter-xl py-4 flex flex-wrap items-center justify-between gap-4">
+          <div class="flex flex-wrap items-center gap-6 md:gap-10">
+            <div class="flex items-center gap-2">
+              <span class="font-mono text-mono-sm text-gold">01</span>
+              <span class="font-label text-label-sm uppercase text-light-on-primary">Chandigarh</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="font-mono text-mono-sm text-gold">02</span>
+              <span class="font-label text-label-sm uppercase text-light-on-primary">Mohali</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="font-mono text-mono-sm text-gold">03</span>
+              <span class="font-label text-label-sm uppercase text-light-on-primary">Panchkula</span>
+            </div>
+          </div>
+
+          <a href="#about" aria-label="Scroll to About RB Developers" class="inline-flex items-center gap-2 text-light-on-primary/80 hover:text-gold transition-colors duration-state-change">
+            <span class="font-label text-label-sm uppercase">Scroll to Explore</span>
+            <span class="material-symbols-outlined text-title-md animate-bounce" aria-hidden="true">south</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- C. About RB Developers (Editorial Split with Architectural Framing) -->
+    <section id="about" class="py-section md:py-section-lg bg-light-surface">
+      <div class="max-w-7xl mx-auto px-gutter-lg md:px-gutter-xl grid grid-cols-1 lg:grid-cols-12 gap-gutter-xl items-center">
+        <!-- Editorial Copy Column -->
+        <div class="lg:col-span-6 flex flex-col gap-gutter-lg">
+          <div class="flex flex-col gap-gutter-sm">
+            <div class="inline-flex items-center gap-2.5">
+              <span class="w-6 h-0.5 bg-gold" aria-hidden="true"></span>
+              <span class="font-label text-label-sm uppercase text-light-secondary">About RB Developers</span>
+            </div>
+            <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-primary text-balance">
+              Turning Vision Into Reality.
+            </h2>
+          </div>
+
+          <p class="font-body text-body-lg text-light-on-surface text-pretty">
+            As a dedicated construction company in Chandigarh and across the Tricity region, RB Developers delivers residential and commercial spaces defined by structural integrity, refined aesthetics, and enduring value.
+          </p>
+
+          <p class="font-body text-body-md text-light-on-surface-variant text-pretty">
+            From custom residences in Mohali to commercial developments in Panchkula, our approach combines modern architectural solutions with transparent business practices. Every project is guided by clear communication, disciplined scheduling, and an unwavering commitment to customer satisfaction.
+          </p>
+
+          <!-- Clean Hairline Commitments -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-gutter-lg pt-4">
+            <div class="border-t-2 border-gold pt-3 flex flex-col gap-1">
+              <h3 class="font-title text-title-md text-light-primary">Quality Construction</h3>
+              <p class="font-body text-body-sm text-light-on-surface-variant text-balance">Precision engineering and certified materials at every stage.</p>
+            </div>
+            <div class="border-t-2 border-light-outline-variant pt-3 flex flex-col gap-1">
+              <h3 class="font-title text-title-md text-light-primary">Transparent Practices</h3>
+              <p class="font-body text-body-sm text-light-on-surface-variant text-balance">Clear BOQs, milestone reporting, and honest guidance.</p>
+            </div>
+            <div class="border-t-2 border-light-outline-variant pt-3 flex flex-col gap-1">
+              <h3 class="font-title text-title-md text-light-primary">Timely Execution</h3>
+              <p class="font-body text-body-sm text-light-on-surface-variant text-balance">Disciplined project timelines with proactive site supervision.</p>
+            </div>
+            <div class="border-t-2 border-light-outline-variant pt-3 flex flex-col gap-1">
+              <h3 class="font-title text-title-md text-light-primary">Tricity Market Insight</h3>
+              <p class="font-body text-body-sm text-light-on-surface-variant text-balance">Deep familiarity with Chandigarh, Mohali, and Panchkula bylaws.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Architectural Image Frame -->
+        <div class="lg:col-span-6 relative">
+          <div class="rounded-sm overflow-hidden border border-light-outline-variant shadow-md">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrD3tr32ifkTIYlja87_uJspuAcUEtVOlGByBJaJlcePENGcuU7E4TwIecJtRC17iggpTQrTkcWhQFKqs_RCABXLnJ_zAOfUUP7WT7ekkUPHDZwo3PzQD9On_zGBiZp5niK929gkUkrjOdTpUW5MPx8Di8GT7JyNoAW_TqRHywcXNneiAuszUmvDxbMO9ZEcX75_EodMk1SFiuPXRTNeHGb6UOBWPaJUc2mIewxBqnBCv9apj2ukA2Qi0Ff3Ig4" alt="Contemporary luxury residential facade crafted with travertine stone and bronze louvers" class="w-full h-96 md:h-[460px] object-cover">
+          </div>
+          <div class="mt-4 bg-ink text-light-on-primary p-gutter-lg rounded-sm flex items-center justify-between gap-4">
+            <div>
+              <p class="font-label text-label-sm uppercase text-gold">Regional Focus</p>
+              <p class="font-headline text-headline-sm text-light-on-primary">Chandigarh • Mohali • Panchkula</p>
+            </div>
+            <span class="material-symbols-outlined text-gold text-headline-md" aria-hidden="true">architecture</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- D. Our Services (Flagship Bento + Editorial Grid) -->
+    <section id="services" class="py-section md:py-section-lg bg-light-surface-container-low border-y border-light-outline-variant">
+      <div class="max-w-7xl mx-auto px-gutter-lg md:px-gutter-xl">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-gutter-lg mb-12">
+          <div class="max-w-2xl flex flex-col gap-gutter-sm">
+            <div class="inline-flex items-center gap-2.5">
+              <span class="w-6 h-0.5 bg-gold" aria-hidden="true"></span>
+              <span class="font-label text-label-sm uppercase text-light-secondary">What We Build</span>
+            </div>
+            <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-primary text-balance">
+              Comprehensive Construction &amp; Development Services
+            </h2>
+          </div>
+          <p class="font-body text-body-md text-light-on-surface-variant max-w-md text-pretty">
+            End-to-end expertise for homeowners, commercial enterprises, and property investors across the Tricity.
+          </p>
+        </div>
+
+        <!-- Top 2 Flagship Services (Wide Editorial Feature Cards) -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter-xl mb-gutter-xl">
+          <!-- Flagship 1: Residential Construction -->
+          <article data-component-id="card-flagship" data-component-type="card" data-component-variant="elevated" class="bg-light-surface border border-light-outline-variant rounded-sm overflow-hidden flex flex-col justify-between shadow-sm hover:border-gold transition-colors duration-state-change group">
+            <div>
+              <div class="relative h-64 overflow-hidden bg-ink">
+                <img src="https://lh3.googleusercontent.com/aida/ALJJyrAja0GOKj-22IMG-XF70sdnhfa2QZ4OW4CnEgT4AKzcj7u4IsX53Ad21ZKrqmYrxFF0S_NLWXrZKLBDugnwbIE5wp-QXrJNYZsZam-vuw54TvW5XyRsLwefJ_nN-mooZw5zSUlRSD3wiUtK5FpuYw8_AvWy0UbjeB6taVfWAbJZ_JAg6vr8cAjqNyMtY3KiLp0ZZ5M8NbfUbdYwIj3BV3jMJQdj-MVnZPXzJ2WHB7tN7QBpJDSxmOrUWs4lvas1" alt="Residential Construction in Chandigarh and Tricity" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-surface-enter">
+                <span class="absolute bottom-4 left-6 px-3 py-1 rounded-sm bg-ink/95 font-mono text-mono-sm text-gold uppercase">01 / Flagship Service</span>
+              </div>
+              <div class="p-gutter-xl flex flex-col gap-gutter-sm">
+                <h3 data-design-text-token="headline-sm" class="font-headline text-headline-sm text-light-primary">Residential Construction</h3>
+                <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">Bespoke independent homes, kothis, and turnkey residences built to enduring structural standards across Chandigarh, Mohali, and Panchkula.</p>
+              </div>
+            </div>
+            <footer class="px-gutter-xl pb-gutter-xl">
+              <a href="#contact" data-service="Residential Construction" class="service-learn-more inline-flex items-center gap-1.5 font-label text-label-lg text-ink hover:text-light-secondary transition-colors duration-state-change">
+                <span>Learn More</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+              </a>
+            </footer>
+          </article>
+
+          <!-- Flagship 2: Commercial Construction -->
+          <article data-component-id="card-flagship" data-component-type="card" data-component-variant="elevated" class="bg-light-surface border border-light-outline-variant rounded-sm overflow-hidden flex flex-col justify-between shadow-sm hover:border-gold transition-colors duration-state-change group">
+            <div>
+              <div class="relative h-64 overflow-hidden bg-ink">
+                <img src="https://lh3.googleusercontent.com/aida/ALJJyrD2VuOS92JTPqq5HYbNp0SIBN9MVUPYBrl_D89TmFZrHDGV6lByOYbg4aVf6BIRcrExJkNh2WGWD98eDZSnr4tsotiNqBY_TEKP4FA0dsLv3F0id_Pv_UE1f8t2XHKMTcJu2xKiIohYMf7oLDegnwMui3MP8seYXqIQ9KuktbuF_ye2AkPXk800564wOSAiNsfVFzz-ULuAuzRrsy0Th59i5HHwp7uR_o9Vvhgka04g7G5BKd4QEIw70HO15nU" alt="Commercial Construction in Mohali and Chandigarh" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-surface-enter">
+                <span class="absolute bottom-4 left-6 px-3 py-1 rounded-sm bg-ink/95 font-mono text-mono-sm text-gold uppercase">02 / Flagship Service</span>
+              </div>
+              <div class="p-gutter-xl flex flex-col gap-gutter-sm">
+                <h3 data-design-text-token="headline-sm" class="font-headline text-headline-sm text-light-primary">Commercial Construction</h3>
+                <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">High-utility office complexes, retail showrooms, and commercial spaces engineered for modern enterprises and investors.</p>
+              </div>
+            </div>
+            <footer class="px-gutter-xl pb-gutter-xl">
+              <a href="#contact" data-service="Commercial Construction" class="service-learn-more inline-flex items-center gap-1.5 font-label text-label-lg text-ink hover:text-light-secondary transition-colors duration-state-change">
+                <span>Learn More</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+              </a>
+            </footer>
+          </article>
+        </div>
+
+        <!-- Remaining 6 Specialized Services (3x2 Editorial Grid) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter-lg items-stretch">
+          <!-- Service 3 -->
+          <article data-component-id="card-elevated" data-component-type="card" data-component-variant="elevated" class="bg-light-surface border border-light-outline-variant rounded-sm overflow-hidden flex flex-col justify-between shadow-sm hover:border-gold transition-colors duration-state-change group">
+            <div>
+              <div class="h-48 overflow-hidden bg-light-surface-container">
+                <img src="https://lh3.googleusercontent.com/aida/ALJJyrBeQ1TJTCGuuOpoGD3tMB9acg3vJ4V7yTjyVho067ivVMTCfrlL3SQl2HwSXbxtaoM94F9HK3fKgMCortaV8u2dYjLwCNcyUBh0FxrPIFU0n_J-CdVioA0SE8RUtDitSmNvYX-dw9WAqFFXWYi2lF6yImw_qnmaCDtBh0OB3_PUaOlQdiYpje9L_YKBNrmDNvIrYTnQuqhh1FJKMilE-e_pr4AOX01Z5DMGYBiKLdxCZPSygmaDW1L3gPJdpu8" alt="Real Estate Development in Tricity" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-surface-enter">
+              </div>
+              <div class="p-gutter-lg flex flex-col gap-gutter-sm">
+                <h3 data-design-text-token="title-lg" class="font-title text-title-lg text-light-primary">Real Estate Development</h3>
+                <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">Thoughtfully planned residential and mixed-use property development across high-growth Tricity corridors.</p>
+              </div>
+            </div>
+            <footer class="px-gutter-lg pb-gutter-lg">
+              <a href="#contact" data-service="Real Estate Development" class="service-learn-more inline-flex items-center gap-1.5 font-label text-label-lg text-ink hover:text-light-secondary transition-colors duration-state-change">
+                <span>Learn More</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+              </a>
+            </footer>
+          </article>
+
+          <!-- Service 4 -->
+          <article data-component-id="card-elevated" data-component-type="card" data-component-variant="elevated" class="bg-light-surface border border-light-outline-variant rounded-sm overflow-hidden flex flex-col justify-between shadow-sm hover:border-gold transition-colors duration-state-change group">
+            <div>
+              <div class="h-48 overflow-hidden bg-light-surface-container">
+                <img src="https://lh3.googleusercontent.com/aida/ALJJyrCmXIjp3DKuYrneUi5TbdjJ879Esj7CyDp0PybkR3KD1zGtBTdeZJ3uyadAn3ezyQGp_KT_feQ5iUES_UaCWW78Sv0a2hZk2Hp6BckRdlDBinvSuPzbIalM24V8b-UhCqEH05hyP9Uvl987CzZLLxtGijJ9JaUqxWSzXTdJiddFfS-ArFF5BY1ynDMoxHsitoP_b2wb1spyBvFm5EBlJzMOyq3scvIgMbUN0315RHabrUuFa1WMRhmaZYAk" alt="Architectural Planning and Design" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-surface-enter">
+              </div>
+              <div class="p-gutter-lg flex flex-col gap-gutter-sm">
+                <h3 data-design-text-token="title-lg" class="font-title text-title-lg text-light-primary">Architectural Planning &amp; Design</h3>
+                <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">Functional floor plans, elevation concepts, and Vastu-conscious spatial layouts tailored to your site.</p>
+              </div>
+            </div>
+            <footer class="px-gutter-lg pb-gutter-lg">
+              <a href="#contact" data-service="Architectural Planning &amp; Design" class="service-learn-more inline-flex items-center gap-1.5 font-label text-label-lg text-ink hover:text-light-secondary transition-colors duration-state-change">
+                <span>Learn More</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+              </a>
+            </footer>
+          </article>
+
+          <!-- Service 5 -->
+          <article data-component-id="card-elevated" data-component-type="card" data-component-variant="elevated" class="bg-light-surface border border-light-outline-variant rounded-sm overflow-hidden flex flex-col justify-between shadow-sm hover:border-gold transition-colors duration-state-change group">
+            <div>
+              <div class="h-48 overflow-hidden bg-light-surface-container">
+                <img src="https://lh3.googleusercontent.com/aida/ALJJyrBRagI-kw0FQ9ai4nhyoBgAoaWY3HN-kgV44_5Duq8jr5sI6zUl3_V13JbsMD-gG_tEZX2PHiz4yqz3fmKPxyFl8OzZBiakHaVnYogz3g8Vn8aj7Nie-Ik6kBpJnpGkJV3Z4u4tNiYP1E51NBMOGG-ygTYGfGXVVO1bgnG-73-cwZh-4ix_uL9NKgGJVR8K_p97uvU4MN4_kJX1y-z6Wc-PVoWAeVnTt_ge3xUc6R31KUbzlIs0QyXtZ7BG" alt="Interior Design and Finishing" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-surface-enter">
+              </div>
+              <div class="p-gutter-lg flex flex-col gap-gutter-sm">
+                <h3 data-design-text-token="title-lg" class="font-title text-title-lg text-light-primary">Interior Design &amp; Finishing</h3>
+                <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">Bespoke stonework, custom woodwork, lighting design, and luxury turnkey interior execution.</p>
+              </div>
+            </div>
+            <footer class="px-gutter-lg pb-gutter-lg">
+              <a href="#contact" data-service="Interior Design &amp; Finishing" class="service-learn-more inline-flex items-center gap-1.5 font-label text-label-lg text-ink hover:text-light-secondary transition-colors duration-state-change">
+                <span>Learn More</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+              </a>
+            </footer>
+          </article>
+
+          <!-- Service 6 -->
+          <article data-component-id="card-elevated" data-component-type="card" data-component-variant="elevated" class="bg-light-surface border border-light-outline-variant rounded-sm overflow-hidden flex flex-col justify-between shadow-sm hover:border-gold transition-colors duration-state-change group">
+            <div>
+              <div class="h-48 overflow-hidden bg-light-surface-container">
+                <img src="https://lh3.googleusercontent.com/aida/ALJJyrDF7MfBBYSWhMI-5nk3TbSSWw-uPni-Et2InUgEihRTvhRVhWOUydWCdvdg3E_jWl9qIuM8mpW5ITHzHro3kDMi9Z-JmUJmFHEi7_8D8k4OGktNrNDxNMt8kbcqSlbEeNgYTIEAxE54q7K4vHYWf_726lj-aI-yVuPJ8I18NyMY7tM_k-9sOkzFslCDM7SbF_-xGUGardkoVlw02VdLHobNLmwAJ8xVXm-7vXT22-tUymAZGhyQqwxJFH7q8fk" alt="Renovation and Remodeling" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-surface-enter">
+              </div>
+              <div class="p-gutter-lg flex flex-col gap-gutter-sm">
+                <h3 data-design-text-token="title-lg" class="font-title text-title-lg text-light-primary">Renovation &amp; Remodeling</h3>
+                <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">Structural upgrades, facade modernization, and complete spatial transformations for existing properties.</p>
+              </div>
+            </div>
+            <footer class="px-gutter-lg pb-gutter-lg">
+              <a href="#contact" data-service="Renovation &amp; Remodeling" class="service-learn-more inline-flex items-center gap-1.5 font-label text-label-lg text-ink hover:text-light-secondary transition-colors duration-state-change">
+                <span>Learn More</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+              </a>
+            </footer>
+          </article>
+
+          <!-- Service 7 -->
+          <article data-component-id="card-elevated" data-component-type="card" data-component-variant="elevated" class="bg-light-surface border border-light-outline-variant rounded-sm overflow-hidden flex flex-col justify-between shadow-sm hover:border-gold transition-colors duration-state-change group">
+            <div>
+              <div class="h-48 overflow-hidden bg-light-surface-container">
+                <img src="https://lh3.googleusercontent.com/aida/ALJJyrDcUvPfqHnsNv_EYZ5x6s4sia5D3toH-VJQtQDFxUTA4GSQooH34q4TweX-d1_4cNzzWp_6y2Cv_F9v56aQB87cTPIbC_EsA7XFCiZlqxxU1AuPttTNqLe8eaxnNHoymgkG8s5MHXbPuxS2uvNCwRpSgSv7wc6o8QwNiRYYI7-H2dmBLZx2S-t8vZp_UKO23-6OJd9sef2NACVV6B06-j5GODVloI5_My3y0mwdQ7EMgxmUgFqbJoLo9Ccigyoz1g" alt="Construction Consultation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-surface-enter">
+              </div>
+              <div class="p-gutter-lg flex flex-col gap-gutter-sm">
+                <h3 data-design-text-token="title-lg" class="font-title text-title-lg text-light-primary">Construction Consultation</h3>
+                <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">Technical feasibility assessments, cost estimation, and material advisory before you break ground.</p>
+              </div>
+            </div>
+            <footer class="px-gutter-lg pb-gutter-lg">
+              <a href="#contact" data-service="Construction Consultation" class="service-learn-more inline-flex items-center gap-1.5 font-label text-label-lg text-ink hover:text-light-secondary transition-colors duration-state-change">
+                <span>Learn More</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+              </a>
+            </footer>
+          </article>
+
+          <!-- Service 8 -->
+          <article data-component-id="card-elevated" data-component-type="card" data-component-variant="elevated" class="bg-light-surface border border-light-outline-variant rounded-sm overflow-hidden flex flex-col justify-between shadow-sm hover:border-gold transition-colors duration-state-change group">
+            <div>
+              <div class="h-48 overflow-hidden bg-light-surface-container">
+                <img src="https://lh3.googleusercontent.com/aida/ALJJyrBySpJxEDanZ-lMGcLotb3mDIq-pFPT-m8fpUQeLBxWnodWYnBE-BOL34gVCkj8rMFQqXIQvtFk8Z2Nd7Ga4582YvhXNdTxEfDypyu0wWrCDtQIjNYWt5bifPjy2dkmn7SHoOIvzYKEBsXpYo1S2E-aWjIF7HFlqCmcAmhOxCvJXkZQl_2tGufUiouJBbe2RLEGylvXrzBVHb-GkhGDdcjLY6UIonw3zcwgkOs2a6HlOs8dsTD7ObDJ4pZY9Tk" alt="Project Management" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-surface-enter">
+              </div>
+              <div class="p-gutter-lg flex flex-col gap-gutter-sm">
+                <h3 data-design-text-token="title-lg" class="font-title text-title-lg text-light-primary">Project Management</h3>
+                <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">Single-point supervision coordinating contractors, quality audits, budgets, and milestone handovers.</p>
+              </div>
+            </div>
+            <footer class="px-gutter-lg pb-gutter-lg">
+              <a href="#contact" data-service="Project Management" class="service-learn-more inline-flex items-center gap-1.5 font-label text-label-lg text-ink hover:text-light-secondary transition-colors duration-state-change">
+                <span>Learn More</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+              </a>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- E. Featured Projects (Gallery Showcase with Category Filter) -->
+    <section id="projects" class="py-section md:py-section-lg bg-light-surface">
+      <div class="max-w-7xl mx-auto px-gutter-lg md:px-gutter-xl">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-gutter-lg mb-8">
+          <div class="flex flex-col gap-gutter-sm">
+            <div class="inline-flex items-center gap-2.5">
+              <span class="w-6 h-0.5 bg-gold" aria-hidden="true"></span>
+              <span class="font-label text-label-sm uppercase text-light-secondary">Portfolio Showcase</span>
+            </div>
+            <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-primary text-balance">
+              Featured Architectural Concepts
+            </h2>
+          </div>
+          <p class="font-body text-body-sm text-light-on-surface-variant bg-light-surface-container border border-light-outline-variant px-4 py-2.5 rounded-sm max-w-md text-balance">
+            <strong class="text-light-primary">Note:</strong> The entries below are clearly labelled illustrative sample concepts for preview purposes until actual RB Developers portfolio details are added.
+          </p>
+        </div>
+
+        <!-- Category Filter Bar -->
+        <div role="tablist" aria-label="Project categories" class="flex flex-wrap items-center gap-2 mb-10 border-b border-light-outline-variant pb-4">
+          <button type="button" data-filter="all" class="project-filter-btn px-4 py-2 rounded-sm font-label text-label-lg bg-ink text-light-on-primary transition-colors duration-state-change">All</button>
+          <button type="button" data-filter="Residential Projects" class="project-filter-btn px-4 py-2 rounded-sm font-label text-label-lg bg-light-surface-container text-light-on-surface-variant hover:bg-light-surface-container-high transition-colors duration-state-change">Residential Projects</button>
+          <button type="button" data-filter="Luxury Homes" class="project-filter-btn px-4 py-2 rounded-sm font-label text-label-lg bg-light-surface-container text-light-on-surface-variant hover:bg-light-surface-container-high transition-colors duration-state-change">Luxury Homes</button>
+          <button type="button" data-filter="Commercial Developments" class="project-filter-btn px-4 py-2 rounded-sm font-label text-label-lg bg-light-surface-container text-light-on-surface-variant hover:bg-light-surface-container-high transition-colors duration-state-change">Commercial Developments</button>
+          <button type="button" data-filter="Modern Villas" class="project-filter-btn px-4 py-2 rounded-sm font-label text-label-lg bg-light-surface-container text-light-on-surface-variant hover:bg-light-surface-container-high transition-colors duration-state-change">Modern Villas</button>
+          <button type="button" data-filter="Residential Apartments" class="project-filter-btn px-4 py-2 rounded-sm font-label text-label-lg bg-light-surface-container text-light-on-surface-variant hover:bg-light-surface-container-high transition-colors duration-state-change">Residential Apartments</button>
+        </div>
+
+        <!-- Projects Gallery Grid -->
+        <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 gap-gutter-xl items-stretch">
+          <!-- Sample Project 1 -->
+          <article data-component-id="card-action" data-component-type="card" data-component-variant="action" data-category="Luxury Homes,Residential Projects" class="project-card bg-light-surface border border-light-outline-variant rounded-sm overflow-hidden flex flex-col justify-between shadow-sm hover:border-gold transition-colors duration-state-change group">
+            <div>
+              <div class="relative h-80 overflow-hidden bg-ink">
+                <img src="https://lh3.googleusercontent.com/aida/ALJJyrD4x_A3FSkusTO13lYvKdtbm1eGVoosn5jMcYylS-tOmwGZEiTgvvPw5KBBZFOEsZJl3lsfA4EKYMc5m3DPUSU8nIvhPZ-6ol-fQ0cILRcry30Z4J0Xf2lcNJnC0uuF-dUGGrOxqbGfvatVGEuXSkjpjvk-7HPf8LTtEZe_sTim-SXqB02ULvkDcwLbnZo-b58TXAhfCfHNroGnRkfseGfUjBs6O1GUzbfOr9xCTkzZAVfXLzAa480iA_C5Nzyy" alt="Illustrative Luxury Residence Concept" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-surface-enter">
+                <div class="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" aria-hidden="true"></div>
+                <span class="absolute top-4 left-4 px-3 py-1 rounded-sm bg-ink/90 text-gold font-label text-label-sm uppercase">Sample Concept</span>
+                <span class="absolute bottom-4 left-4 font-body text-body-sm text-light-on-primary flex items-center gap-1">
+                  <span class="material-symbols-outlined text-title-md text-gold" aria-hidden="true">location_on</span>
+                  Chandigarh (Illustrative)
+                </span>
+              </div>
+              <div class="p-gutter-lg flex flex-col gap-gutter-sm">
+                <span data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-light-secondary">Luxury Homes</span>
+                <h3 data-design-text-token="headline-sm" class="font-headline text-headline-sm text-light-primary">The Courtyard Residence (Sample)</h3>
+                <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">Illustrative concept for a custom contemporary residence featuring double-height glazing, limestone cladding, and private courtyard landscaping.</p>
+              </div>
+            </div>
+            <footer class="px-gutter-lg pb-gutter-lg pt-gutter-sm border-t border-light-surface-container-high flex items-center justify-between">
+              <button type="button" data-project-title="The Courtyard Residence (Sample)" data-project-location="Chandigarh (Illustrative)" data-project-category="Luxury Homes" data-project-desc="An illustrative luxury home concept showcasing travertine stone elevations, shaded outdoor terraces, and energy-efficient glazing tailored for Chandigarh&#39;s climate." class="view-project-btn inline-flex items-center gap-1.5 font-label text-label-lg text-ink hover:text-light-secondary transition-colors duration-state-change">
+                <span>View Project</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+              </button>
+            </footer>
+          </article>
+
+          <!-- Sample Project 2 -->
+          <article data-component-id="card-action" data-component-type="card" data-component-variant="action" data-category="Modern Villas,Residential Projects" class="project-card bg-light-surface border border-light-outline-variant rounded-sm overflow-hidden flex flex-col justify-between shadow-sm hover:border-gold transition-colors duration-state-change group">
+            <div>
+              <div class="relative h-80 overflow-hidden bg-ink">
+                <img src="https://lh3.googleusercontent.com/aida/ALJJyrCyf_bRJQqC3A-96BjYIivfHwV_xooz4hQInXR90VQlqOT4ovk-nBIbHAGalEAX9eHlFN2pA0paWlRWhXVTLJazvZpYC_pKLczuVgpMN6zxllJuQ1AMVk1YxvltUbPg6gyBUPuhlEqBMnMQpJPVe-reHtPNA53HNiYOfN5cciMQskTak3Xyi9QasegZW-yaA4ydop92ScMzfp2hNpv-TXjYDyJSA5lyH0HuGRXuK-ZkVu3URMYJk26q" alt="Illustrative Modern Villa Concept" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-surface-enter">
+                <div class="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" aria-hidden="true"></div>
+                <span class="absolute top-4 left-4 px-3 py-1 rounded-sm bg-ink/90 text-gold font-label text-label-sm uppercase">Sample Concept</span>
+                <span class="absolute bottom-4 left-4 font-body text-body-sm text-light-on-primary flex items-center gap-1">
+                  <span class="material-symbols-outlined text-title-md text-gold" aria-hidden="true">location_on</span>
+                  Mohali (Illustrative)
+                </span>
+              </div>
+              <div class="p-gutter-lg flex flex-col gap-gutter-sm">
+                <span data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-light-secondary">Modern Villas</span>
+                <h3 data-design-text-token="headline-sm" class="font-headline text-headline-sm text-light-primary">Horizon Cantilever Villa (Sample)</h3>
+                <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">Illustrative villa concept pairing clean cantilevered slabs with warm timber soffits and landscaped private lawns.</p>
+              </div>
+            </div>
+            <footer class="px-gutter-lg pb-gutter-lg pt-gutter-sm border-t border-light-surface-container-high flex items-center justify-between">
+              <button type="button" data-project-title="Horizon Cantilever Villa (Sample)" data-project-location="Mohali (Illustrative)" data-project-category="Modern Villas" data-project-desc="An illustrative modern villa concept designed for spacious corner plots in Mohali, emphasizing cross-ventilation, indoor-outdoor flow, and architectural lighting." class="view-project-btn inline-flex items-center gap-1.5 font-label text-label-lg text-ink hover:text-light-secondary transition-colors duration-state-change">
+                <span>View Project</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+              </button>
+            </footer>
+          </article>
+
+          <!-- Sample Project 3 -->
+          <article data-component-id="card-action" data-component-type="card" data-component-variant="action" data-category="Commercial Developments" class="project-card bg-light-surface border border-light-outline-variant rounded-sm overflow-hidden flex flex-col justify-between shadow-sm hover:border-gold transition-colors duration-state-change group">
+            <div>
+              <div class="relative h-80 overflow-hidden bg-ink">
+                <img src="https://lh3.googleusercontent.com/aida/ALJJyrAYa5T8T8rVk56lr1Cl-We244jxKKSfSjZM0wU5-Kc0926p1JEaB3VFFhZDyKcBfM69X3bD0OJGLYNbewErLYZMjeOjM-S6yXsY7cAne0WPfamgiSq33RuWBVsksPh0qD-QWKqxa1Uir9KP2c-xfjF4oSb7O2D3X3qEtkdZJ9MMmXAwm6dGJ-J_OScFi5lE5hnDiJ_nqwkZTGYjXOKiEG7Bbi3Td8EfzjBeREzQ0PyFwHJwvOBblI18wGqQpQ" alt="Illustrative Commercial Development Concept" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-surface-enter">
+                <div class="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" aria-hidden="true"></div>
+                <span class="absolute top-4 left-4 px-3 py-1 rounded-sm bg-ink/90 text-gold font-label text-label-sm uppercase">Sample Concept</span>
+                <span class="absolute bottom-4 left-4 font-body text-body-sm text-light-on-primary flex items-center gap-1">
+                  <span class="material-symbols-outlined text-title-md text-gold" aria-hidden="true">location_on</span>
+                  Mohali (Illustrative)
+                </span>
+              </div>
+              <div class="p-gutter-lg flex flex-col gap-gutter-sm">
+                <span data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-light-secondary">Commercial Developments</span>
+                <h3 data-design-text-token="headline-sm" class="font-headline text-headline-sm text-light-primary">Tricity Business Atrium (Sample)</h3>
+                <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">Illustrative commercial plaza featuring a double-height glass lobby, granite entry steps, and flexible corporate floor plates.</p>
+              </div>
+            </div>
+            <footer class="px-gutter-lg pb-gutter-lg pt-gutter-sm border-t border-light-surface-container-high flex items-center justify-between">
+              <button type="button" data-project-title="Tricity Business Atrium (Sample)" data-project-location="Mohali (Illustrative)" data-project-category="Commercial Developments" data-project-desc="An illustrative commercial office and retail concept engineered for high visibility, structured parking, and contemporary corporate tenants." class="view-project-btn inline-flex items-center gap-1.5 font-label text-label-lg text-ink hover:text-light-secondary transition-colors duration-state-change">
+                <span>View Project</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+              </button>
+            </footer>
+          </article>
+
+          <!-- Sample Project 4 -->
+          <article data-component-id="card-action" data-component-type="card" data-component-variant="action" data-category="Residential Apartments,Residential Projects" class="project-card bg-light-surface border border-light-outline-variant rounded-sm overflow-hidden flex flex-col justify-between shadow-sm hover:border-gold transition-colors duration-state-change group">
+            <div>
+              <div class="relative h-80 overflow-hidden bg-ink">
+                <img src="https://lh3.googleusercontent.com/aida/ALJJyrCe-UmFr0S9iMwK4hUSVOkW1qsyrRjtrU2Sj_nhw4C36rBbHo2PisJ7qiZU-oLfJnOMKe32LmxqH6MHUpUAQ3MclDITLmN9bXejmxz2VZXIOvilj-OWq-lFzzc_NuH5OFqV2-QsIQx9VVFHv4KgZNnfav9dwrNv5aloYZAwktlf1NZflLU3km_IZZhua9REKt_n00XNm3Y9hpwfOLQQguLQewUDO_eAbebWzq0tam1vbVrIuOUjNAxyddWj2A" alt="Illustrative Residential Apartments Concept" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-surface-enter">
+                <div class="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" aria-hidden="true"></div>
+                <span class="absolute top-4 left-4 px-3 py-1 rounded-sm bg-ink/90 text-gold font-label text-label-sm uppercase">Sample Concept</span>
+                <span class="absolute bottom-4 left-4 font-body text-body-sm text-light-on-primary flex items-center gap-1">
+                  <span class="material-symbols-outlined text-title-md text-gold" aria-hidden="true">location_on</span>
+                  Panchkula (Illustrative)
+                </span>
+              </div>
+              <div class="p-gutter-lg flex flex-col gap-gutter-sm">
+                <span data-design-text-token="label-sm" class="font-label text-label-sm uppercase text-light-secondary">Residential Apartments</span>
+                <h3 data-design-text-token="headline-sm" class="font-headline text-headline-sm text-light-primary">Shivalik Terrace Residences (Sample)</h3>
+                <p data-design-text-token="body-md" class="font-body text-body-md text-light-on-surface-variant">Illustrative mid-rise apartment concept with recessed balconies, natural stone facade panels, and landscaped podium walkways.</p>
+              </div>
+            </div>
+            <footer class="px-gutter-lg pb-gutter-lg pt-gutter-sm border-t border-light-surface-container-high flex items-center justify-between">
+              <button type="button" data-project-title="Shivalik Terrace Residences (Sample)" data-project-location="Panchkula (Illustrative)" data-project-category="Residential Apartments" data-project-desc="An illustrative residential apartment concept tailored for Panchkula, balancing generous daylight, acoustic privacy, and low-maintenance exterior finishes." class="view-project-btn inline-flex items-center gap-1.5 font-label text-label-lg text-ink hover:text-light-secondary transition-colors duration-state-change">
+                <span>View Project</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+              </button>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- F. Why Choose RB Developers (Crisp Editorial Grid) -->
+    <section class="py-section md:py-section-lg bg-light-surface-container-low border-t border-light-outline-variant">
+      <div class="max-w-7xl mx-auto px-gutter-lg md:px-gutter-xl">
+        <div class="max-w-2xl mb-12 flex flex-col gap-gutter-sm">
+          <div class="inline-flex items-center gap-2.5">
+            <span class="w-6 h-0.5 bg-gold" aria-hidden="true"></span>
+            <span class="font-label text-label-sm uppercase text-light-secondary">Why Choose RB Developers</span>
+          </div>
+          <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-primary text-balance">
+            The Foundation of Every Great Project Is Trust.
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter-lg">
+          <div class="bg-light-surface border border-light-outline-variant rounded-sm p-gutter-xl flex flex-col gap-gutter-sm">
+            <div class="flex items-center justify-between">
+              <span class="material-symbols-outlined text-gold text-headline-md" aria-hidden="true">workspace_premium</span>
+              <span class="font-mono text-mono-sm text-light-on-surface-variant">01</span>
+            </div>
+            <h3 class="font-title text-title-lg text-light-primary">Quality First Approach</h3>
+            <p class="font-body text-body-md text-light-on-surface-variant">Strict material testing, structural integrity checks, and workmanship benchmarks on every site.</p>
+          </div>
+
+          <div class="bg-light-surface border border-light-outline-variant rounded-sm p-gutter-xl flex flex-col gap-gutter-sm">
+            <div class="flex items-center justify-between">
+              <span class="material-symbols-outlined text-gold text-headline-md" aria-hidden="true">engineering</span>
+              <span class="font-mono text-mono-sm text-light-on-surface-variant">02</span>
+            </div>
+            <h3 class="font-title text-title-lg text-light-primary">Experienced Professionals</h3>
+            <p class="font-body text-body-md text-light-on-surface-variant">Skilled civil engineers, architects, and site supervisors dedicated to disciplined execution.</p>
+          </div>
+
+          <div class="bg-light-surface border border-light-outline-variant rounded-sm p-gutter-xl flex flex-col gap-gutter-sm">
+            <div class="flex items-center justify-between">
+              <span class="material-symbols-outlined text-gold text-headline-md" aria-hidden="true">forum</span>
+              <span class="font-mono text-mono-sm text-light-on-surface-variant">03</span>
+            </div>
+            <h3 class="font-title text-title-lg text-light-primary">Transparent Communication</h3>
+            <p class="font-body text-body-md text-light-on-surface-variant">Itemized cost estimates, clear contracts, and regular progress updates with zero hidden surprises.</p>
+          </div>
+
+          <div class="bg-light-surface border border-light-outline-variant rounded-sm p-gutter-xl flex flex-col gap-gutter-sm">
+            <div class="flex items-center justify-between">
+              <span class="material-symbols-outlined text-gold text-headline-md" aria-hidden="true">event_available</span>
+              <span class="font-mono text-mono-sm text-light-on-surface-variant">04</span>
+            </div>
+            <h3 class="font-title text-title-lg text-light-primary">Timely Execution</h3>
+            <p class="font-body text-body-md text-light-on-surface-variant">Structured milestone planning and resource scheduling to deliver your project on time.</p>
+          </div>
+
+          <div class="bg-light-surface border border-light-outline-variant rounded-sm p-gutter-xl flex flex-col gap-gutter-sm">
+            <div class="flex items-center justify-between">
+              <span class="material-symbols-outlined text-gold text-headline-md" aria-hidden="true">precision_manufacturing</span>
+              <span class="font-mono text-mono-sm text-light-on-surface-variant">05</span>
+            </div>
+            <h3 class="font-title text-title-lg text-light-primary">Modern Construction</h3>
+            <p class="font-body text-body-md text-light-on-surface-variant">Contemporary structural methods, waterproofing systems, and energy-efficient building practices.</p>
+          </div>
+
+          <div class="bg-light-surface border border-light-outline-variant rounded-sm p-gutter-xl flex flex-col gap-gutter-sm">
+            <div class="flex items-center justify-between">
+              <span class="material-symbols-outlined text-gold text-headline-md" aria-hidden="true">sentiment_satisfied</span>
+              <span class="font-mono text-mono-sm text-light-on-surface-variant">06</span>
+            </div>
+            <h3 class="font-title text-title-lg text-light-primary">Customer-Centric Approach</h3>
+            <p class="font-body text-body-md text-light-on-surface-variant">Every architectural and finishing decision is aligned with your lifestyle, budget, and long-term goals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- G. Our Working Process (Dark Navy Editorial Band) -->
+    <section id="process" class="py-section md:py-section-lg bg-ink text-light-on-primary">
+      <div class="max-w-7xl mx-auto px-gutter-lg md:px-gutter-xl">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-gutter-lg mb-12">
+          <div class="max-w-2xl flex flex-col gap-gutter-sm">
+            <div class="inline-flex items-center gap-2.5">
+              <span class="w-6 h-0.5 bg-gold" aria-hidden="true"></span>
+              <span class="font-label text-label-sm uppercase text-gold">How We Work</span>
+            </div>
+            <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-on-primary text-balance">
+              Our 5-Step Working Process
+            </h2>
+          </div>
+          <p class="font-body text-body-md text-light-on-primary-container max-w-md text-pretty">
+            A structured, transparent workflow from first conversation to final handover.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-gutter-md">
+          <!-- Step 1 -->
+          <div class="bg-light-primary/60 border border-light-on-primary/15 rounded-sm p-gutter-lg flex flex-col gap-gutter-sm">
+            <div class="flex items-center justify-between">
+              <span class="font-mono text-mono-sm text-gold">STEP 01</span>
+              <span class="material-symbols-outlined text-gold text-title-lg" aria-hidden="true">chat</span>
+            </div>
+            <h3 class="font-label text-label-lg text-light-on-primary">Initial Consultation</h3>
+            <p class="font-body text-body-sm text-light-on-primary-container">Understand your project vision, functional requirements, and target budget.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="bg-light-primary/60 border border-light-on-primary/15 rounded-sm p-gutter-lg flex flex-col gap-gutter-sm">
+            <div class="flex items-center justify-between">
+              <span class="font-mono text-mono-sm text-gold">STEP 02</span>
+              <span class="material-symbols-outlined text-gold text-title-lg" aria-hidden="true">explore</span>
+            </div>
+            <h3 class="font-label text-label-lg text-light-on-primary">Site Visit &amp; Planning</h3>
+            <p class="font-body text-body-sm text-light-on-primary-container">Evaluate plot dimensions, soil conditions, orientation, and local Tricity norms.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="bg-light-primary/60 border border-light-on-primary/15 rounded-sm p-gutter-lg flex flex-col gap-gutter-sm">
+            <div class="flex items-center justify-between">
+              <span class="font-mono text-mono-sm text-gold">STEP 03</span>
+              <span class="material-symbols-outlined text-gold text-title-lg" aria-hidden="true">architecture</span>
+            </div>
+            <h3 class="font-label text-label-lg text-light-on-primary">Design &amp; Estimation</h3>
+            <p class="font-body text-body-sm text-light-on-primary-container">Finalize architectural drawings, 3D concepts, and a transparent bill of quantities.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="bg-light-primary/60 border border-light-on-primary/15 rounded-sm p-gutter-lg flex flex-col gap-gutter-sm">
+            <div class="flex items-center justify-between">
+              <span class="font-mono text-mono-sm text-gold">STEP 04</span>
+              <span class="material-symbols-outlined text-gold text-title-lg" aria-hidden="true">construction</span>
+            </div>
+            <h3 class="font-label text-label-lg text-light-on-primary">Construction &amp; Execution</h3>
+            <p class="font-body text-body-sm text-light-on-primary-container">Build with dedicated site supervision, quality audits, and scheduled milestone updates.</p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="bg-light-primary/60 border border-light-on-primary/15 rounded-sm p-gutter-lg flex flex-col gap-gutter-sm">
+            <div class="flex items-center justify-between">
+              <span class="font-mono text-mono-sm text-gold">STEP 05</span>
+              <span class="material-symbols-outlined text-gold text-title-lg" aria-hidden="true">key</span>
+            </div>
+            <h3 class="font-label text-label-lg text-light-on-primary">Final Handover</h3>
+            <p class="font-body text-body-sm text-light-on-primary-container">Complete thorough quality walkthroughs and hand over your keys on schedule.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- H. Tricity Presence -->
+    <section class="py-section md:py-section-lg bg-light-surface-container-low border-b border-light-outline-variant">
+      <div class="max-w-7xl mx-auto px-gutter-lg md:px-gutter-xl">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-gutter-lg mb-12">
+          <div class="flex flex-col gap-gutter-sm">
+            <div class="inline-flex items-center gap-2.5">
+              <span class="w-6 h-0.5 bg-gold" aria-hidden="true"></span>
+              <span class="font-label text-label-sm uppercase text-light-secondary">Regional Footprint</span>
+            </div>
+            <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-primary text-balance">
+              Building Across The Tricity.
+            </h2>
+          </div>
+          <p class="font-body text-body-md text-light-on-surface-variant max-w-md text-pretty">
+            Serving homeowners, commercial investors, and landowners across Chandigarh, Mohali, and Panchkula.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-lg items-stretch">
+          <!-- Chandigarh -->
+          <a href="#contact" data-component-id="card-interactive" data-component-type="card" data-component-variant="interactive" class="bg-light-surface border-t-4 border-t-gold border-x border-b border-light-outline-variant rounded-sm p-gutter-xl flex flex-col justify-between gap-gutter-md hover:border-gold transition-colors duration-state-change">
+            <div class="flex flex-col gap-gutter-sm">
+              <div class="flex items-center justify-between">
+                <span class="font-mono text-mono-sm text-light-secondary uppercase">Sectoral Grid</span>
+                <span class="material-symbols-outlined text-gold text-title-lg" aria-hidden="true">location_city</span>
+              </div>
+              <h3 class="font-headline text-headline-md text-light-primary">Chandigarh</h3>
+              <p class="font-body text-body-md text-light-on-surface-variant">Residential construction in Chandigarh, custom kothi rebuilds, and architectural planning aligned with estate bylaws.</p>
+            </div>
+            <span class="font-label text-label-lg text-ink inline-flex items-center gap-1">
+              Discuss a Chandigarh Project
+              <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+            </span>
+          </a>
+
+          <!-- Mohali -->
+          <a href="#contact" data-component-id="card-interactive" data-component-type="card" data-component-variant="interactive" class="bg-light-surface border-t-4 border-t-ink border-x border-b border-light-outline-variant rounded-sm p-gutter-xl flex flex-col justify-between gap-gutter-md hover:border-gold transition-colors duration-state-change">
+            <div class="flex flex-col gap-gutter-sm">
+              <div class="flex items-center justify-between">
+                <span class="font-mono text-mono-sm text-light-secondary uppercase">Growth Corridor</span>
+                <span class="material-symbols-outlined text-gold text-title-lg" aria-hidden="true">apartment</span>
+              </div>
+              <h3 class="font-headline text-headline-md text-light-primary">Mohali</h3>
+              <p class="font-body text-body-md text-light-on-surface-variant">Trusted builders in Mohali delivering modern villas, residential floors, and commercial construction across Aerocity &amp; Sector belts.</p>
+            </div>
+            <span class="font-label text-label-lg text-ink inline-flex items-center gap-1">
+              Discuss a Mohali Project
+              <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+            </span>
+          </a>
+
+          <!-- Panchkula -->
+          <a href="#contact" data-component-id="card-interactive" data-component-type="card" data-component-variant="interactive" class="bg-light-surface border-t-4 border-t-gold border-x border-b border-light-outline-variant rounded-sm p-gutter-xl flex flex-col justify-between gap-gutter-md hover:border-gold transition-colors duration-state-change">
+            <div class="flex flex-col gap-gutter-sm">
+              <div class="flex items-center justify-between">
+                <span class="font-mono text-mono-sm text-light-secondary uppercase">Foothills &amp; Sectors</span>
+                <span class="material-symbols-outlined text-gold text-title-lg" aria-hidden="true">villa</span>
+              </div>
+              <h3 class="font-headline text-headline-md text-light-primary">Panchkula</h3>
+              <p class="font-body text-body-md text-light-on-surface-variant">Dedicated construction company in Panchkula crafting serene residences, renovations, and commercial developments.</p>
+            </div>
+            <span class="font-label text-label-lg text-ink inline-flex items-center gap-1">
+              Discuss a Panchkula Project
+              <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- I. Client Testimonials (Clearly Labelled Sample Content) -->
+    <section class="py-section md:py-section-lg bg-light-surface">
+      <div class="max-w-7xl mx-auto px-gutter-lg md:px-gutter-xl">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-gutter-lg mb-12">
+          <div class="flex flex-col gap-gutter-sm">
+            <div class="inline-flex items-center gap-2.5">
+              <span class="w-6 h-0.5 bg-gold" aria-hidden="true"></span>
+              <span class="font-label text-label-sm uppercase text-light-secondary">Client Perspectives</span>
+            </div>
+            <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-primary text-balance">
+              Words of Trust
+            </h2>
+          </div>
+          <p class="font-body text-body-sm text-light-on-surface-variant bg-light-surface-container border border-light-outline-variant px-4 py-2 rounded-sm">
+            <strong class="text-light-primary">Sample Layout:</strong> Illustrative testimonial placeholders ready for genuine client reviews.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-lg">
+          <!-- Sample Testimonial 1 -->
+          <article class="bg-light-surface-container-low border border-light-outline-variant rounded-sm p-gutter-xl flex flex-col justify-between gap-gutter-lg">
+            <div class="flex flex-col gap-gutter-md">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-1 text-gold" aria-label="5 out of 5 stars">
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                </div>
+                <span class="material-symbols-outlined text-gold/40 text-headline-md" aria-hidden="true">format_quote</span>
+              </div>
+              <p class="font-body text-body-md text-light-on-surface text-pretty">
+                &#34;[Sample Review] The structural clarity, transparent material billing, and consistent site supervision made building our family home a calm, predictable experience.&#34;
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-gutter-md border-t border-light-outline-variant">
+              <div class="w-10 h-10 rounded-full bg-ink text-gold flex items-center justify-center font-label text-label-lg">C1</div>
+              <div>
+                <p class="font-title text-title-md text-light-primary">Sample Homeowner</p>
+                <p class="font-body text-body-sm text-light-on-surface-variant">Residential Client • Chandigarh</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sample Testimonial 2 -->
+          <article class="bg-light-surface-container-low border border-light-outline-variant rounded-sm p-gutter-xl flex flex-col justify-between gap-gutter-lg">
+            <div class="flex flex-col gap-gutter-md">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-1 text-gold" aria-label="5 out of 5 stars">
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                </div>
+                <span class="material-symbols-outlined text-gold/40 text-headline-md" aria-hidden="true">format_quote</span>
+              </div>
+              <p class="font-body text-body-md text-light-on-surface text-pretty">
+                &#34;[Sample Review] From initial architectural planning to commercial handover, RB Developers maintained strict timelines and clear weekly communication.&#34;
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-gutter-md border-t border-light-outline-variant">
+              <div class="w-10 h-10 rounded-full bg-ink text-gold flex items-center justify-center font-label text-label-lg">C2</div>
+              <div>
+                <p class="font-title text-title-md text-light-primary">Sample Commercial Partner</p>
+                <p class="font-body text-body-sm text-light-on-surface-variant">Commercial Client • Mohali</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sample Testimonial 3 -->
+          <article class="bg-light-surface-container-low border border-light-outline-variant rounded-sm p-gutter-xl flex flex-col justify-between gap-gutter-lg">
+            <div class="flex flex-col gap-gutter-md">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-1 text-gold" aria-label="5 out of 5 stars">
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                  <span class="material-symbols-outlined text-title-md" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">star</span>
+                </div>
+                <span class="material-symbols-outlined text-gold/40 text-headline-md" aria-hidden="true">format_quote</span>
+              </div>
+              <p class="font-body text-body-md text-light-on-surface text-pretty">
+                &#34;[Sample Review] Their attention to detail in stone finishing, waterproofing, and interior execution stood out throughout our renovation project.&#34;
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-gutter-md border-t border-light-outline-variant">
+              <div class="w-10 h-10 rounded-full bg-ink text-gold flex items-center justify-center font-label text-label-lg">C3</div>
+              <div>
+                <p class="font-title text-title-md text-light-primary">Sample Property Owner</p>
+                <p class="font-body text-body-sm text-light-on-surface-variant">Renovation Client • Panchkula</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- J. Call To Action (Dark Background Section) -->
+    <section class="py-section md:py-section-lg bg-ink text-light-on-primary border-y border-gold/30">
+      <div class="max-w-5xl mx-auto px-gutter-lg md:px-gutter-xl text-center flex flex-col items-center gap-gutter-lg">
+        <span class="font-label text-label-sm uppercase text-gold">Start Your Project</span>
+        <h2 class="font-display text-display-md-mobile md:text-display-md text-light-on-primary uppercase text-balance">
+          LET&#39;S BUILD SOMETHING EXTRAORDINARY.
+        </h2>
+        <p class="font-body text-body-lg text-light-on-primary-container max-w-2xl text-pretty">
+          Have a project in mind? Let&#39;s discuss how RB Developers can bring your vision to life.
+        </p>
+        <div class="pt-2">
+          <!-- COMPONENT: button-gold -->
+          <a href="#contact" data-component-id="button-gold" data-component-type="button" data-component-variant="secondary" class="inline-flex items-center gap-2 px-6 py-3 rounded-sm bg-gold text-light-primary hover:bg-light-secondary-container focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold transition-colors duration-state-change">
+            <span data-design-text-token="label-lg" class="font-label text-label-lg">Talk to Our Experts</span>
+            <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- K. Contact Section -->
+    <section id="contact" class="py-section md:py-section-lg bg-light-surface-container-low">
+      <div class="max-w-7xl mx-auto px-gutter-lg md:px-gutter-xl grid grid-cols-1 lg:grid-cols-12 gap-gutter-xl">
+        <!-- Contact Information & Placeholders -->
+        <div class="lg:col-span-5 flex flex-col gap-gutter-lg">
+          <div class="flex flex-col gap-gutter-sm">
+            <div class="inline-flex items-center gap-2.5">
+              <span class="w-6 h-0.5 bg-gold" aria-hidden="true"></span>
+              <span class="font-label text-label-sm uppercase text-light-secondary">Get In Touch</span>
+            </div>
+            <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-primary text-balance">
+              Schedule a Free Consultation
+            </h2>
+            <p class="font-body text-body-md text-light-on-surface-variant text-pretty">
+              Share your plot location, project scope, or investment goals. Our team will respond with next steps for a site visit or consultation.
+            </p>
+          </div>
+
+          <div class="bg-ink text-light-on-primary rounded-sm p-gutter-xl flex flex-col gap-gutter-md shadow-sm">
+            <div class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-gold text-title-lg mt-0.5" aria-hidden="true">call</span>
+              <div>
+                <p class="font-label text-label-sm uppercase text-gold">Company Phone</p>
+                <p class="font-title text-title-md text-light-on-primary">Coming soon</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-gold text-title-lg mt-0.5" aria-hidden="true">chat</span>
+              <div>
+                <p class="font-label text-label-sm uppercase text-gold">WhatsApp Direct</p>
+                <p class="font-title text-title-md text-light-on-primary">[WhatsApp Number Placeholder]</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-gold text-title-lg mt-0.5" aria-hidden="true">mail</span>
+              <div>
+                <p class="font-label text-label-sm uppercase text-gold">Business Email</p>
+                <p class="font-title text-title-md text-light-on-primary">[Business Email Placeholder]</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-gold text-title-lg mt-0.5" aria-hidden="true">location_on</span>
+              <div>
+                <p class="font-label text-label-sm uppercase text-gold">Office Address</p>
+                <p class="font-body text-body-md text-light-on-primary-container text-balance">[Office Address Placeholder — Chandigarh / Mohali / Panchkula, Tricity, India]</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Google Maps Location Placeholder -->
+          <div class="bg-light-surface border border-light-outline-variant rounded-sm p-gutter-lg flex flex-col items-center justify-center text-center gap-2 min-h-40">
+            <span class="material-symbols-outlined text-ink text-headline-md" aria-hidden="true">map</span>
+            <p class="font-title text-title-md text-light-primary">Google Maps Location Placeholder</p>
+            <p class="font-body text-body-sm text-light-on-surface-variant">Embed your verified RB Developers office pin here before launch.</p>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="lg:col-span-7 bg-light-surface border border-light-outline-variant rounded-sm p-gutter-xl shadow-sm">
+          <form id="inquiry-form" method="post" novalidate class="flex flex-col gap-gutter-lg">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-gutter-lg">
+              <!-- Full Name -->
+              <label data-component-id="input-field-text" data-component-type="input-field" data-component-variant="text" class="flex flex-col gap-1.5">
+                <span data-design-text-token="label-lg" class="font-label text-label-lg text-light-primary">Full Name *</span>
+                <input id="field-name" name="fullName" type="text" required placeholder="Enter your full name" class="w-full px-3.5 py-2.5 rounded-sm border border-light-outline-variant bg-light-surface text-light-on-surface text-body-md placeholder:text-light-outline focus:border-ink focus:ring-1 focus:ring-ink">
+                <span class="field-error hidden font-body text-body-sm text-light-error" role="alert">Please enter your full name.</span>
+              </label>
+
+              <!-- Phone Number -->
+              <label data-component-id="input-field-text" data-component-type="input-field" data-component-variant="text" class="flex flex-col gap-1.5">
+                <span data-design-text-token="label-lg" class="font-label text-label-lg text-light-primary">Phone Number *</span>
+                <input id="field-phone" name="phone" type="tel" inputmode="tel" required placeholder="+91 XXXXX XXXXX" class="w-full px-3.5 py-2.5 rounded-sm border border-light-outline-variant bg-light-surface text-light-on-surface text-body-md placeholder:text-light-outline focus:border-ink focus:ring-1 focus:ring-ink">
+                <span class="field-error hidden font-body text-body-sm text-light-error" role="alert">Please enter a valid phone number.</span>
+              </label>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-gutter-lg">
+              <!-- Email Address -->
+              <label data-component-id="input-field-text" data-component-type="input-field" data-component-variant="text" class="flex flex-col gap-1.5">
+                <span data-design-text-token="label-lg" class="font-label text-label-lg text-light-primary">Email Address *</span>
+                <input id="field-email" name="email" type="email" inputmode="email" required placeholder="you@domain.com" class="w-full px-3.5 py-2.5 rounded-sm border border-light-outline-variant bg-light-surface text-light-on-surface text-body-md placeholder:text-light-outline focus:border-ink focus:ring-1 focus:ring-ink">
+                <span class="field-error hidden font-body text-body-sm text-light-error" role="alert">Please enter a valid email address.</span>
+              </label>
+
+              <!-- Service Required -->
+              <label class="flex flex-col gap-1.5">
+                <span data-design-text-token="label-lg" class="font-label text-label-lg text-light-primary">Service Required *</span>
+                <select id="field-service" name="service" required class="w-full px-3.5 py-2.5 rounded-sm border border-light-outline-variant bg-light-surface text-light-on-surface text-body-md focus:border-ink focus:ring-1 focus:ring-ink">
+                  <option value>Select a service</option>
+                  <option value="Residential Construction">Residential Construction</option>
+                  <option value="Commercial Construction">Commercial Construction</option>
+                  <option value="Real Estate Development">Real Estate Development</option>
+                  <option value="Architectural Planning &amp; Design">Architectural Planning &amp; Design</option>
+                  <option value="Interior Design &amp; Finishing">Interior Design &amp; Finishing</option>
+                  <option value="Renovation &amp; Remodeling">Renovation &amp; Remodeling</option>
+                  <option value="Construction Consultation">Construction Consultation</option>
+                  <option value="Project Management">Project Management</option>
+                </select>
+                <span class="field-error hidden font-body text-body-sm text-light-error" role="alert">Please select a service.</span>
+              </label>
+            </div>
+
+            <!-- Project Location -->
+            <label class="flex flex-col gap-1.5">
+              <span data-design-text-token="label-lg" class="font-label text-label-lg text-light-primary">Project Location *</span>
+              <select id="field-location" name="location" required class="w-full px-3.5 py-2.5 rounded-sm border border-light-outline-variant bg-light-surface text-light-on-surface text-body-md focus:border-ink focus:ring-1 focus:ring-ink">
+                <option value>Select Tricity location</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Mohali">Mohali</option>
+                <option value="Panchkula">Panchkula</option>
+                <option value="Zirakpur / New Chandigarh / Surrounding Tricity">Zirakpur / New Chandigarh / Surrounding Tricity</option>
+              </select>
+              <span class="field-error hidden font-body text-body-sm text-light-error" role="alert">Please select a project location.</span>
+            </label>
+
+            <!-- Project Details -->
+            <label class="flex flex-col gap-1.5">
+              <span data-design-text-token="label-lg" class="font-label text-label-lg text-light-primary">Project Details</span>
+              <textarea id="field-details" name="details" rows="4" placeholder="Share plot size, preferred timeline, or construction requirements..." class="w-full px-3.5 py-2.5 rounded-sm border border-light-outline-variant bg-light-surface text-light-on-surface text-body-md placeholder:text-light-outline focus:border-ink focus:ring-1 focus:ring-ink"></textarea>
+            </label>
+
+            <!-- Submit Button & Feedback -->
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-gutter-md pt-2">
+              <!-- COMPONENT: button-primary -->
+              <button type="submit" data-component-id="button-primary" data-component-type="button" data-component-variant="primary" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-sm bg-ink text-light-on-primary hover:bg-light-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold transition-colors duration-state-change">
+                <span data-design-text-token="label-lg" class="font-label text-label-lg">Submit Inquiry</span>
+                <span class="material-symbols-outlined text-title-md" aria-hidden="true">send</span>
+              </button>
+
+              <p class="font-body text-body-sm text-light-on-surface-variant">
+                We respect your privacy. No unsolicited calls.
+              </p>
+            </div>
+
+            <div id="form-success" class="hidden p-gutter-md rounded-sm bg-light-surface-container border border-gold text-light-primary" role="status">
+              <p class="font-title text-title-md">Enquiry preview</p>
+              <p class="font-body text-body-sm text-light-on-surface-variant mt-1">This preview does not send enquiries.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- L. Footer -->
+  <footer class="bg-charcoal text-light-on-primary pt-section pb-24 border-t border-gold/30">
+    <div class="max-w-7xl mx-auto px-gutter-lg md:px-gutter-xl">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter-xl pb-12 border-b border-light-on-primary/15">
+        <!-- Brand Intro -->
+        <div class="lg:col-span-4 flex flex-col gap-gutter-md">
+        <img src="./rb-infra-logo.png" width="373" height="115" alt="RB Infra Developers" class="block w-auto h-14 self-start rounded-sm bg-white px-2 py-1.5 object-contain">
+          <p class="font-body text-body-md text-light-on-primary-container max-w-sm text-pretty">
+            A construction and real estate development partner delivering residential, commercial, and architectural excellence across Chandigarh, Mohali, and Panchkula.
+          </p>
+
+        </div>
+
+        <!-- Quick Links -->
+        <div class="lg:col-span-2 flex flex-col gap-gutter-sm">
+          <h3 class="font-label text-label-sm uppercase text-gold mb-1">Quick Links</h3>
+          <a href="#home" class="font-body text-body-md text-light-on-primary-container hover:text-gold transition-colors">Home</a>
+          <a href="#about" class="font-body text-body-md text-light-on-primary-container hover:text-gold transition-colors">About Us</a>
+          <a href="#services" class="font-body text-body-md text-light-on-primary-container hover:text-gold transition-colors">Services</a>
+          <a href="#projects" class="font-body text-body-md text-light-on-primary-container hover:text-gold transition-colors">Projects</a>
+          <a href="#process" class="font-body text-body-md text-light-on-primary-container hover:text-gold transition-colors">Our Process</a>
+          <a href="#contact" class="font-body text-body-md text-light-on-primary-container hover:text-gold transition-colors">Contact</a>
+        </div>
+
+        <!-- Services -->
+        <div class="lg:col-span-3 flex flex-col gap-gutter-sm">
+          <h3 class="font-label text-label-sm uppercase text-gold mb-1">Services</h3>
+          <a href="#services" class="font-body text-body-md text-light-on-primary-container hover:text-gold transition-colors">Residential Construction</a>
+          <a href="#services" class="font-body text-body-md text-light-on-primary-container hover:text-gold transition-colors">Commercial Construction</a>
+          <a href="#services" class="font-body text-body-md text-light-on-primary-container hover:text-gold transition-colors">Real Estate Development</a>
+          <a href="#services" class="font-body text-body-md text-light-on-primary-container hover:text-gold transition-colors">Architectural Planning &amp; Design</a>
+          <a href="#services" class="font-body text-body-md text-light-on-primary-container hover:text-gold transition-colors">Interior Design &amp; Finishing</a>
+          <a href="#services" class="font-body text-body-md text-light-on-primary-container hover:text-gold transition-colors">Project Management</a>
+        </div>
+
+        <!-- Tricity Locations & Contact -->
+        <div class="lg:col-span-3 flex flex-col gap-gutter-sm">
+          <h3 class="font-label text-label-sm uppercase text-gold mb-1">Tricity Locations</h3>
+          <p class="font-body text-body-md text-light-on-primary-container">Chandigarh • Mohali • Panchkula</p>
+          <p class="font-body text-body-sm text-light-on-primary-container/80 mt-2">Phone: [Company Phone Placeholder]</p>
+          <p class="font-body text-body-sm text-light-on-primary-container/80">Email: [Business Email Placeholder]</p>
+          <p class="font-body text-body-sm text-light-on-primary-container/80">Office: [Office Address Placeholder]</p>
+        </div>
+      </div>
+
+      <div class="pt-gutter-lg flex flex-col sm:flex-row items-center justify-between gap-gutter-md">
+        <p class="font-body text-body-sm text-light-on-primary-container/80">
+          © 2026 RB DEVELOPERS. All rights reserved.
+        </p>
+        <p class="font-body text-body-sm text-light-on-primary-container/80">
+          Construction &amp; Real Estate Development — Tricity, India
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Project Concept Preview Modal -->
+  <div id="project-modal" class="hidden fixed inset-0 z-50 bg-charcoal/80 flex items-center justify-center p-gutter-lg" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="bg-light-surface border border-light-outline-variant rounded-sm max-w-lg w-full p-gutter-xl shadow-lg flex flex-col gap-gutter-md">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <span id="modal-category" class="font-label text-label-sm uppercase text-light-secondary"></span>
+          <h3 id="modal-title" class="font-headline text-headline-md text-light-primary mt-1"></h3>
+          <p id="modal-location" class="font-body text-body-sm text-light-on-surface-variant mt-0.5"></p>
+        </div>
+        <button id="close-modal-btn" type="button" aria-label="Close project preview" class="w-9 h-9 rounded-sm border border-light-outline-variant flex items-center justify-center text-light-on-surface hover:bg-light-surface-container">
+          <span class="material-symbols-outlined text-title-md" aria-hidden="true">close</span>
+        </button>
+      </div>
+      <p id="modal-desc" class="font-body text-body-md text-light-on-surface-variant"></p>
+      <p class="font-body text-body-sm text-light-on-surface-variant bg-light-surface-container p-3 rounded-sm border border-light-outline-variant">
+        Illustrative sample concept. Contact RB Developers to discuss custom architectural plans for your plot.
+      </p>
+      <div class="flex justify-end gap-3 pt-2">
+        <a id="modal-consult-btn" href="#contact" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-sm bg-ink text-light-on-primary font-label text-label-lg hover:bg-light-primary transition-colors">
+          <span>Request Similar Concept</span>
+          <span class="material-symbols-outlined text-title-md" aria-hidden="true">arrow_forward</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      // Sticky Header Scroll Effect
+      var header = document.getElementById('site-header');
+      function updateHeader() {
+        if (window.scrollY > 40) {
+          header.classList.add('bg-ink', 'shadow-md');
+          header.classList.remove('bg-ink/75');
+        } else {
+          header.classList.remove('bg-ink', 'shadow-md');
+          header.classList.add('bg-ink/75');
+        }
+      }
+      window.addEventListener('scroll', updateHeader, { passive: true });
+      updateHeader();
+
+      // Mobile Hamburger Menu
+      var menuToggle = document.getElementById('mobile-menu-toggle');
+      var mobileMenu = document.getElementById('mobile-menu');
+      var menuIcon = document.getElementById('mobile-menu-icon');
+      if (menuToggle && mobileMenu) {
+        menuToggle.addEventListener('click', function () {
+          var isHidden = mobileMenu.classList.contains('hidden');
+          mobileMenu.classList.toggle('hidden');
+          menuToggle.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+          menuIcon.textContent = isHidden ? 'close' : 'menu';
+        });
+        document.querySelectorAll('.mobile-nav-link').forEach(function (link) {
+          link.addEventListener('click', function () {
+            mobileMenu.classList.add('hidden');
+            menuToggle.setAttribute('aria-expanded', 'false');
+            menuIcon.textContent = 'menu';
+          });
+        });
+      }
+
+      // Project Category Filtering
+      var filterBtns = document.querySelectorAll('.project-filter-btn');
+      var projectCards = document.querySelectorAll('.project-card');
+      filterBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var selected = btn.getAttribute('data-filter');
+          filterBtns.forEach(function (b) {
+            b.classList.remove('bg-ink', 'text-light-on-primary');
+            b.classList.add('bg-light-surface-container', 'text-light-on-surface-variant');
+          });
+          btn.classList.remove('bg-light-surface-container', 'text-light-on-surface-variant');
+          btn.classList.add('bg-ink', 'text-light-on-primary');
+
+          projectCards.forEach(function (card) {
+            var categories = (card.getAttribute('data-category') || '').split(',');
+            if (selected === 'all' || categories.indexOf(selected) !== -1) {
+              card.classList.remove('hidden');
+            } else {
+              card.classList.add('hidden');
+            }
+          });
+        });
+      });
+
+      // Service "Learn More" pre-fills Contact Form Service
+      var serviceSelect = document.getElementById('field-service');
+      document.querySelectorAll('.service-learn-more').forEach(function (link) {
+        link.addEventListener('click', function () {
+          var svc = link.getAttribute('data-service');
+          if (serviceSelect && svc) {
+            serviceSelect.value = svc;
+          }
+        });
+      });
+
+      // Project Preview Modal
+      var modal = document.getElementById('project-modal');
+      var closeModalBtn = document.getElementById('close-modal-btn');
+      var modalConsultBtn = document.getElementById('modal-consult-btn');
+      document.querySelectorAll('.view-project-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          document.getElementById('modal-title').textContent = btn.getAttribute('data-project-title');
+          document.getElementById('modal-location').textContent = btn.getAttribute('data-project-location');
+          document.getElementById('modal-category').textContent = btn.getAttribute('data-project-category') + ' — Sample Concept';
+          document.getElementById('modal-desc').textContent = btn.getAttribute('data-project-desc');
+          modal.classList.remove('hidden');
+        });
+      });
+      if (closeModalBtn) {
+        closeModalBtn.addEventListener('click', function () {
+          modal.classList.add('hidden');
+        });
+      }
+      if (modalConsultBtn) {
+        modalConsultBtn.addEventListener('click', function () {
+          modal.classList.add('hidden');
+        });
+      }
+      if (modal) {
+        modal.addEventListener('click', function (e) {
+          if (e.target === modal) modal.classList.add('hidden');
+        });
+      }
+
+      // Contact Form Validation & Submission Feedback
+      var form = document.getElementById('inquiry-form');
+      var formSuccess = document.getElementById('form-success');
+      if (form) {
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          var valid = true;
+          var requiredFields = ['field-name', 'field-phone', 'field-email', 'field-service', 'field-location'];
+          requiredFields.forEach(function (id) {
+            var input = document.getElementById(id);
+            var err = input.parentElement.querySelector('.field-error');
+            var val = (input.value || '').trim();
+            var isFieldValid = val.length > 0;
+            if (id === 'field-email' && val.indexOf('@') === -1) isFieldValid = false;
+            if (!isFieldValid) {
+              valid = false;
+              input.setAttribute('aria-invalid', 'true');
+              if (err) err.classList.remove('hidden');
+            } else {
+              input.removeAttribute('aria-invalid');
+              if (err) err.classList.add('hidden');
+            }
+          });
+          if (valid) {
+            formSuccess.classList.remove('hidden');
+
+          } else {
+            formSuccess.classList.add('hidden');
+          }
+        });
+      }
+    })();
+  </script>
+
+
+</body></html>
